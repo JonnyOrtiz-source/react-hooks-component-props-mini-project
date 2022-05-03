@@ -21,7 +21,7 @@ function Article({ date = 'January 1, 1970', minutes, preview, title }) {
          <article>
             <h3>{title}</h3>
             <small>
-               {date} {emojiElement.join('')}
+               {date} {emojiElement.join('')} {emojiElement.length} min read
             </small>
             <p>{preview}</p>
          </article>
